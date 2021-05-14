@@ -1,0 +1,10 @@
+type HotJobs { 
+  employerName__A:  String 
+  jobTitle__B:  String 
+  jobLocation__C:  String 
+  jobUrl__D:  String 
+}
+type Query {
+  hotjobs(q:String! = ""): [HotJobs]
+    @rest(endpoint:"https://sheets.apis.stepzen.com/1V0BbDDICD9PFvhUzMkCLTJ-baNnz4Efvmp3-z7IiA3M/0")
+}

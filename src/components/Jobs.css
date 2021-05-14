@@ -1,0 +1,44 @@
+.jobs__container--main {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin: 25px 5px 25px 5px;
+}
+
+.jobs__container--card {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+
+.jobs__container--header {
+    background-color: rgba(0,60,120,0.3);
+    font-size: xx-large;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.jobs__container--title {
+    font-size: large;
+    text-align: center;
+    text-shadow: 0px 0px 17px rgba(0,60,220,0.75);
+}
+
+.jobs__container--locale {
+    font-size: small;
+    margin: 10px;
+    text-align: center;
+}
+
+.jobs__container--link {
+    margin-bottom: 10px;
+}

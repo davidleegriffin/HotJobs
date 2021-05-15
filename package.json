@@ -29,6 +29,7 @@
   "author": "David L Griffin",
   "description": "Using StepZen and React to display contents of Google Doc HotJobs",
   "dependencies": {
+    "@apollo/client": "^3.3.18",
     "@apollo/react-hooks": "^4.0.0",
     "apollo-boost": "^0.4.9",
     "graphql": "^15.5.0",

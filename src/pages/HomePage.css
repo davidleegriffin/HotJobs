@@ -1,19 +1,30 @@
 body {
     /* photo courtesy Guille Pozzi @guillepozzi from unSplash */
     background-image: url("https://images.unsplash.com/photo-1513628253939-010e64ac66cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80");
-    margin-top: 100px;
+    margin-top: 245px;
+    
 }
 
 .navbar__container--main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: black;
     position: fixed;
+    z-index: 100;
     top: 0;
-    width: 100%;
+    left: -1px;
+    width: 110%;
     border-bottom: 3px solid white;
 }
 
 .navbar__header--banner {
     color: white;
     text-align: center;
-    background-color: rgba(255,255,255, 0.3);
+    /* background-color: rgba(255,255,255, 0.3); */
+}
+
+.navbar__container--main img {
+    margin-bottom: 30px;
 }

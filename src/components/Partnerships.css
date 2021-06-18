@@ -1,14 +1,14 @@
-.hotJobs__container--main {
+.partnerships__container--main {
     background-color: black;
     position: relative;
+    z-index: -100;
     top: 0;
     left: -10px;
     width: 110%;
     border-bottom: 3px solid white;
 }
 
-.hotJobs__header--banner {
-    margin-top: 25%;
+.partnerships__header--banner {
     color: white;
     text-align: center;
     background-color: rgba(255,255,255, 0.3);

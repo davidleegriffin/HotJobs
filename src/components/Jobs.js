@@ -2,7 +2,6 @@ import React from 'react'
 import './Jobs.css'
 
 function Jobs(props) {
-    console.log(props.props)
     let emp = props.props.employerName__A;
     let jobTitle = props.props.jobTitle__B;
     let locale = props.props.jobLocation__C;

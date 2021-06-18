@@ -1,6 +1,6 @@
 schema
   @sdl(
-    files: [ "hotjobs.graphql"]
+    files: [ "hotjobs.graphql", "partnerships.graphql"]
   ) {
   query: Query
 }

@@ -6,5 +6,17 @@ type HotJobs {
 }
 type Query {
   hotjobs(q:String! = ""): [HotJobs]
-    @rest(endpoint:"https://sheets.apis.stepzen.com/1V0BbDDICD9PFvhUzMkCLTJ-baNnz4Efvmp3-z7IiA3M/0")
+    @rest(endpoint:"https://sheets-generator-v2-zlwadjbovq-uc.a.run.app/1zHDEAhI_mWIb8l9GhJKnWm7c03_G7DG5mIrohTuLdcI/0")
+}
+
+type Mutation {
+  addSheetTest( 
+    employerName__A: String! = "" 
+    jobTitle__B: String! = "" 
+    jobLocation__C: String! = "" 
+    jobUrl__D: String! = "" ): HotJobs
+    @rest(
+      endpoint: "https://sheets-generator-v2-zlwadjbovq-uc.a.run.app/mutate/1zHDEAhI_mWIb8l9GhJKnWm7c03_G7DG5mIrohTuLdcI"
+      configuration: "MySheetTest"
+    )
 }

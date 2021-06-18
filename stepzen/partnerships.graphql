@@ -1,0 +1,13 @@
+type Partnerships { 
+  Alert__A:  String 
+  Deadline__B:  String 
+  AAForm__C:  String 
+  Company__D:  String 
+  Location__E:  String 
+  Description__F:  String 
+  Website__G: String
+}
+type Query {
+  partnerships(q:String! = ""): [Partnerships]
+    @rest(endpoint:"https://sheets.apis.stepzen.com/1EAXiCS9Ebk6BO7NO_2gFKEO4VF5bjMxTxB_TInvA150/0")
+}

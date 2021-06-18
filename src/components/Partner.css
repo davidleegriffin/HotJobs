@@ -1,0 +1,104 @@
+.partner__container--main {
+    display: flex;
+    /* grid-template-columns: auto auto auto; */
+    margin: 35px 35px 35px 35px;
+}
+
+.partner__container--card {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.partner__container--alert {
+    height: fit-content;
+    width: 100%;
+    font-size:xx-large;
+    text-align: center;
+    background-color: white;
+    animation: alert 4s infinite;
+}
+
+@keyframes alert {
+    0% {
+        background-color: white;
+        color: black;
+    }
+    50% {
+        background-color: red;
+        color: white
+    }
+    100% {
+        background-color: white;
+        color: black;
+    }
+}
+
+
+.partner__container--company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(0,60,120,0.3);
+    color: black;
+    font-size: xxx-large;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 90%;
+    height: 90%;
+}
+
+.partner__container--company a {
+    text-decoration: none;
+    color: black;
+    width: 50%;
+}
+
+.partner__container--company a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.partner__container--deadline {
+    margin-top: 20px;
+    font-size: large;
+    text-align: center;
+    text-shadow: 0px 0px 17px rgba(0,60,220,0.75);
+}
+
+.partner__container--location {
+    width: 20%;
+    font-size: small;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.partner__container--description {
+    text-align: center;
+    font-size: 15px;
+}
+
+.partner__container--link {
+    margin-bottom: 10px;
+}
+
+.partner__button--form {
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+}

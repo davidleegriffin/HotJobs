@@ -4,7 +4,7 @@ import Partner from './Partner'
 import './Partnerships.css'
 
 export default function Partnerships() {
-  
+
   const {
     data,
     loading,
@@ -12,12 +12,12 @@ export default function Partnerships() {
   } = useQuery(GET_PARTNERSHIPS)
 
   const partners = data?.partnerships;
-  console.log(data);
-  
+  // console.log(data);
+
   if (loading) return <p>Almost there...</p>
   if (error) return <p>{error.message}</p>
-  
-  
+
+
   return (
     <>
       <div className="partnerships__container--main">
@@ -25,7 +25,7 @@ export default function Partnerships() {
       </div>
       {partners.map((partner) => {
         return (
-            <Partner props={partner}/>          
+            <Partner props={partner}/>
         );})}
     </>
   );

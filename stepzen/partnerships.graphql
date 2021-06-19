@@ -1,11 +1,13 @@
-type Partnerships { 
-  Alert__A:  String 
-  Deadline__B:  String 
-  AAForm__C:  String 
-  Company__D:  String 
-  Location__E:  String 
-  Description__F:  String 
+type Partnerships {
+  Alert__A:  String
+  Deadline__B:  String
+  AAForm__C:  String
+  Company__D:  String
+  Location__E:  String
+  Description__F:  String
   Website__G: String
+  Other__H: String
+  OtherWebsite__I: String
 }
 type Query {
   partnerships(q:String! = ""): [Partnerships]

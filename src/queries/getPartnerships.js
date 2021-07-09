@@ -10,6 +10,8 @@ export const GET_PARTNERSHIPS = gql`
         Location__E
         Description__F
         Website__G
+        Other__H
+        OtherWebsite__I
     }
   }
 `

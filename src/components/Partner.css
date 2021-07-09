@@ -62,7 +62,7 @@
 .partner__container--company a {
     text-decoration: none;
     color: black;
-    width: 50%;
+    width: 40%;
 }
 
 .partner__container--company a:hover {
@@ -78,7 +78,7 @@
 }
 
 .partner__container--location {
-    width: 20%;
+    width: auto;
     font-size: small;
     margin: 10px;
     padding: 10px;
@@ -90,6 +90,17 @@
 .partner__container--description {
     text-align: center;
     font-size: 15px;
+    width: auto;
+}
+
+.partner__container--other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border-left: 1px solid black;
+    margin-right: 20px;
 }
 
 .partner__container--link {
